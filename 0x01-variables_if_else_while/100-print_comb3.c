@@ -8,12 +8,12 @@ int main(void)
 {
 	int p;
 	int c;
-	
+
 	for (p = 0; p <= 9; p++)
 	{
 		for (c = p + 1; c <= 9; c++)
 		{
-			if (p == 8 && c ==9)
+			if (p == 8 && c == 9)
 				break;
 
 			putchar(p + '0');
