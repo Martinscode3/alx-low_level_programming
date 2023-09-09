@@ -14,7 +14,7 @@ int main(void)
 		(p >= 'a')
 		{
 			putchar(p);
-			p++;
+			p--;
 		}
 			putchar('\n');
 			return (0);
