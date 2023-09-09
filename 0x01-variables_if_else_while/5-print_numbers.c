@@ -10,8 +10,7 @@ int main(void)
 
 	for (p = 0; p < 10; p++)
 	{
-		printf("%d", p);
-		putchar('\n');
+		printf("%d\n", p);
 	}
 		return (0);
 }
