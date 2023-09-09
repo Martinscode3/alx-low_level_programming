@@ -12,14 +12,20 @@ int main(void)
 
 	while (p <= 'z')
 	{
-		if ((p != 'q' && p != 'e') && p <= 'z')
+		if (p == 'e')
 		{
-
+			p++;
+			continue;
+		}
+		else if (p == 'q')
+		{
+			p++;
+			continue;
+		}
 			putchar(p);
 			p++;
-		}
-
 	}
+
 			putchar('\n');
 			return (0);
 
