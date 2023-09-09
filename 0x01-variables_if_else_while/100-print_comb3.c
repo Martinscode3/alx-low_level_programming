@@ -13,11 +13,13 @@ int main(void)
 	{
 		for (c = p + 1; c <= 9; c++)
 		{
-			if (p == 8 && c == 9)
-				break;
-
 			putchar(p + '0');
 			putchar(c + '0');
+
+			if (p == 8 && c == 9)
+				break;
+			putchar(',');
+			putchar(' ');
 		}
 	}
 		putchar('\n');
